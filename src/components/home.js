@@ -99,6 +99,8 @@ class Home extends React.Component{
                         <Col className="score_col">
                           <h2>Test Your Memory</h2> 
                           <p><strong>Score: </strong>{this.state.score}</p> 
+                          <p>You  need to just remember the image click the box to open the image</p>
+                          <p><Button onClick={this.reloadPage} variant="info">Reload</Button></p>
                         </Col>
                     </Row>
                    
